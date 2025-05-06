@@ -3,8 +3,8 @@ import streamlit as st
 st.title("🪙 Gold Buy/Sell Profit Calculator")
 
 # Input fields
-buy_price = st.number_input("💰 Buy Price (per Tola)", format="%.2f", value=0.105890)
-sell_price = st.number_input("💸 Sell Price (per Tola)", format="%.2f", value=0.115890)
+buy_price = st.number_input("💰 Buy Price (per Tola)", format="%.2f", value=365000.00)
+sell_price = st.number_input("💸 Sell Price (per Tola)", format="%.2f", value=375000.00)
 capital = st.number_input("💵 Your Investment:", value=350000.0)
 
 # Calculation
