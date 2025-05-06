@@ -16,7 +16,7 @@ if buy_price > 0:
     # Display Results
     st.markdown("### 📊 Result")
     st.write(f"🔹 **Coins Bought:** {coins:.2f}")
-    st.write(f"🔹 **Sell Value:** {total_sell:.2f} USDT")
-    st.write(f"✅ **Profit:** {profit:.2f} USDT")
+    st.write(f"🔹 **Sell Value:** {total_sell:.2f} PKR")
+    st.write(f"✅ **Profit:** {profit:.2f} PKR")
 else:
     st.error("Buy price must be greater than 0.")
